@@ -1,3 +1,4 @@
+// componente de boas vindas da primeira tela.
 import { View, Image, Text } from "react-native";
 import { styles } from "./styles";
 

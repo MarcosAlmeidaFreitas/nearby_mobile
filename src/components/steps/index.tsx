@@ -1,6 +1,8 @@
+//lista dos componente da primeira tela.
 import { View, Text } from "react-native";
 import { styles } from "./styles";
 import { Step } from "../step";
+//foi usado a biblioteca tablerIcons, porem ela quebrou o expo com o npm, então tive que instalar com pnpm
 import { IconMapPin, IconQrcode, IconTicket } from '@tabler/icons-react-native';
 
 export function Steps(){
@@ -27,6 +29,5 @@ export function Steps(){
       </Step>
 
     </View>
-  )
-
+  );
 }
